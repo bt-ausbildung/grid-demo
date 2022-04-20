@@ -2,12 +2,16 @@
 import './App.css';
 
 function App() {
+
   return (
     <div className="parent">
-<div className="header">header </div>
-<div className="content">content </div>
-<div className="footer">footer </div>
-</div>
+      <div className="header">Header </div>
+      <div className="content inhalt">
+          <div class="ordner">Ordner</div>
+          <div class="dokumente">Dokumente</div>
+      </div>
+      <div className="footer">Footer </div>
+    </div>
   );
 }
 

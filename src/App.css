@@ -3,21 +3,35 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 7vh 1fr 5vh;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  gap: .3rem;
   }
   
   .header { 
     grid-area: 1 / 1 / 2 / 4; 
-    background-color: darkslategray;
+    background-color: #97DBAE;
     color: #fff;
   }
   .content { 
     grid-area: 2 / 1 / 3 / 4; 
-    background-color:aliceblue;
   }
   .footer { 
     grid-area: 3 / 1 / 4 / 4; 
-    background-color:chocolate;
+    background-color:#B5FE83;
     color: white;
   }
+
+  .inhalt {
+    display: grid;
+    grid-template-columns: 1fr 1.608fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .ordner { 
+      background-color: #F7F7F7;
+      grid-area: 1 / 1 / 2 / 2; 
+    }
+    .dokumente { 
+      background-color:#FFE699;
+      grid-area: 1 / 2 / 2 / 3; }
